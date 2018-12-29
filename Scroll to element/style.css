@@ -1,0 +1,43 @@
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.block {
+  height: 100vh;
+  padding: 15px;
+  color: #fff;
+}
+
+.first {
+  background-color: #F98866;
+  padding-top: 20px;
+}
+
+.second {
+  background-color: #80bd9e;
+}
+
+.third {
+  background-color: #89da59;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #505660;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+}
+
+li>a {
+  color: #fff;
+  text-decoration: none;
+}
