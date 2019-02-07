@@ -4,3 +4,4 @@ $('.question').on('click', function(){
   answer.slideToggle(400);
 });
 
+// Change .slideToggle on .slideDown for always active one class (active)
